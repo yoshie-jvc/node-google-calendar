@@ -1,6 +1,6 @@
 // Sample CalendarAPI settings
 const SERVICE_ACCT_ID = 'cgsync@cgsync-258309.iam.gserviceaccount.com';
-const KEYFILE = 'cgsync-258309-d4190c87a69f.json';				//path to pem key
+const key = require('cgsync-258309-d4190c87a69f.json').private_key;				//path to pem key
 const TIMEZONE = 'UTC+09:00';
 const CALENDAR_ID = {
 	'primary': 'jvc.nimoda@gmail.com',
