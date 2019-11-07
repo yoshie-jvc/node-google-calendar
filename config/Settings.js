@@ -4,7 +4,7 @@ const KEYFILE = 'your-google-api-keyfile.pem';				//path to pem key
 const TIMEZONE = 'UTC+09:00';
 const CALENDAR_ID = {
 	'primary': 'jvc.nimoda@gmail.com',
-	'calendar-1': ''v7rfdj4jjmgilpg2bhblbhf840@group.calendar.google.com',
+	'calendar-1': 'v7rfdj4jjmgilpg2bhblbhf840@group.calendar.google.com',
 };
 
 module.exports.serviceAcctId = SERVICE_ACCT_ID;
