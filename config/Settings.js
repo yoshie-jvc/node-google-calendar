@@ -1,6 +1,5 @@
-// Sample CalendarAPI settings
-const SERVICE_ACCT_ID = 'cgsync@cgsync-258309.iam.gserviceaccount.com';
-const key = require('cgsync-258309-d4190c87a69f.json').private_key;				//path to pem key
+const SERVICE_ACCT_ID = 'cgsync-jvc@cgsync-258317.iam.gserviceaccount.com';
+const key = require('cgsync-jvc-b76d5d6a4ec6.json').private_key;
 const TIMEZONE = 'UTC+09:00';
 const CALENDAR_ID = {
 	'primary': 'jvc.nimoda@gmail.com',
@@ -11,8 +10,3 @@ module.exports.serviceAcctId = SERVICE_ACCT_ID;
 module.exports.key = key;
 module.exports.timezone = TIMEZONE;
 module.exports.calendarId = CALENDAR_ID;
-
-// Example for using json keys
-// var key = require('./googleapi-key.json').private_key;
-// module.exports.key = key;
-
